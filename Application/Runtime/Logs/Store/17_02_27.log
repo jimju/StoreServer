@@ -1,0 +1,67 @@
+[ 2017-02-27T14:43:42+08:00 ] 127.0.0.1 /think/stotest
+ERR: 无法加载控制器:Test
+
+[ 2017-02-27T14:44:08+08:00 ] 127.0.0.1 /think/Store/Test
+ERR: 无法加载控制器:Test
+
+[ 2017-02-27T14:44:37+08:00 ] 127.0.0.1 /think/Store/Test
+ERR: 无法加载控制器:Test
+
+[ 2017-02-27T14:44:46+08:00 ] 127.0.0.1 /think/Store/Test
+ERR: 非法操作:test
+
+[ 2017-02-27T14:44:51+08:00 ] 127.0.0.1 /think/Store/test
+ERR: 非法操作:test
+
+[ 2017-02-27T14:45:07+08:00 ] 127.0.0.1 /think/Store/test/index
+ERR: 非法操作:test
+
+[ 2017-02-27T14:45:12+08:00 ] 127.0.0.1 /think/Store/Test/index
+ERR: 非法操作:test
+
+[ 2017-02-27T14:45:53+08:00 ] 127.0.0.1 /think/Store/Test/index
+ERR: 非法操作:test
+
+[ 2017-02-27T14:45:53+08:00 ] 127.0.0.1 /think/Store/Test/index
+ERR: 非法操作:test
+
+[ 2017-02-27T14:46:15+08:00 ] 127.0.0.1 /think/Store/Product
+ERR: 无法加载控制器:Product
+
+[ 2017-02-27T14:46:27+08:00 ] 127.0.0.1 /think/Store/Product
+ERR: 无法加载控制器:Product
+
+[ 2017-02-27T14:46:28+08:00 ] 127.0.0.1 /think/Store/Product
+ERR: 无法加载控制器:Product
+
+[ 2017-02-27T14:46:28+08:00 ] 127.0.0.1 /think/Store/Product
+ERR: 无法加载控制器:Product
+
+[ 2017-02-27T14:46:35+08:00 ] 127.0.0.1 /think/Store/product
+ERR: 无法加载控制器:Product
+
+[ 2017-02-27T14:47:12+08:00 ] 127.0.0.1 /think/Store/product
+ERR: 无法加载控制器:Product
+
+[ 2017-02-27T14:47:13+08:00 ] 127.0.0.1 /think/Store/product
+ERR: 无法加载控制器:Product
+
+[ 2017-02-27T14:47:13+08:00 ] 127.0.0.1 /think/Store/product
+ERR: 无法加载控制器:Product
+
+[ 2017-02-27T14:47:13+08:00 ] 127.0.0.1 /think/Store/product
+ERR: 无法加载控制器:Product
+
+[ 2017-02-27T14:47:35+08:00 ] 127.0.0.1 /think/Store/product
+ERR: 无法加载控制器:Product
+
+[ 2017-02-27T14:47:37+08:00 ] 127.0.0.1 /think/Store/product
+ERR: 无法加载控制器:Product
+
+[ 2017-02-27T14:47:39+08:00 ] 127.0.0.1 /think/Store/product
+ERR: 无法加载控制器:Product
+
+[ 2017-02-27T14:52:11+08:00 ] 127.0.0.1 /think/Store/product/getproduct
+ERR: 1146:Table 'thinkphp.think_product' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `think_product`
+

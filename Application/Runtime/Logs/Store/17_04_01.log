@@ -1,0 +1,378 @@
+[ 2017-04-01T14:34:21+08:00 ] 192.168.30.249 /eihView/resources/eih/product/search?pageSize=9&pageNum=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_products` [ RunTime:0.0315s ]
+SQL: SHOW COLUMNS FROM `think_files` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `think_products` WHERE (  1 ) AND (  1 ) LIMIT 0,9   [ RunTime:0.0275s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=413 ) LIMIT 1   [ RunTime:0.0425s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=414 ) LIMIT 1   [ RunTime:0.0070s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=415 ) LIMIT 1   [ RunTime:0.0075s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=416 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=417 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=418 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=419 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=420 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=421 ) LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_products` WHERE (  1 ) AND (  1 ) LIMIT 1   [ RunTime:0.0080s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-01T14:34:21+08:00 ] 192.168.30.249 /eihView/resources/eih/product/search?pageSize=9&pageNum=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+SQL: SHOW COLUMNS FROM `think_products` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_files` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_products` WHERE (  1 ) AND (  1 ) LIMIT 9,9   [ RunTime:0.0010s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=422 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=423 ) LIMIT 1   [ RunTime:0.0045s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=424 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=425 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=426 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=427 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=428 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=429 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=430 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_products` WHERE (  1 ) AND (  1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-01T14:34:28+08:00 ] 192.168.30.249 /eihView/resources/eih/product?productHeaderId=414
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_products` [ RunTime:0.0035s ]
+SQL: SHOW COLUMNS FROM `think_files` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_products` WHERE ( `productHeaderId`=414 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=414 )  [ RunTime:0.0035s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-01T14:34:28+08:00 ] 192.168.30.249 /eihView/resources/eih/eihBaseDistributor/search?channelId=1006
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_distributor` [ RunTime:0.0430s ]
+SQL: SELECT * FROM `think_distributor` WHERE ( channelId=1006 )  [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_distributor` WHERE ( channelId=1006 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-01T14:34:28+08:00 ] 192.168.30.249 /eihView/resources/eih/eihBaseChannel/searchExt?bdrDistributorId=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_shop` [ RunTime:0.0450s ]
+SQL: SELECT * FROM `think_shop` WHERE ( bdrDistributorId=13 )  [ RunTime:0.0295s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_shop` WHERE ( bdrDistributorId=13 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-01T14:34:28+08:00 ] 192.168.30.249 /eihView/resources/eih/eihBaseChannel/searchExt?bdrDistributorId=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_shop` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_shop` WHERE ( bdrDistributorId=13 )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_shop` WHERE ( bdrDistributorId=13 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-01T14:34:28+08:00 ] 192.168.30.249 /eihView/resources/eih/eihBaseChannel/searchExt?bdrDistributorId=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_shop` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `think_shop` WHERE ( bdrDistributorId=13 )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_shop` WHERE ( bdrDistributorId=13 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-01T14:34:37+08:00 ] 192.168.30.249 /eihView/resources/eih/eihBaseDistributor/search?channelId=1006
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `think_distributor` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `think_distributor` WHERE ( channelId=1006 )  [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_distributor` WHERE ( channelId=1006 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-01T14:34:37+08:00 ] 192.168.30.249 /eihView/resources/eih/product?productHeaderId=416
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `think_products` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `think_files` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `think_products` WHERE ( `productHeaderId`=416 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=416 )  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2017-04-01T14:34:37+08:00 ] 192.168.30.249 /eihView/resources/eih/eihBaseChannel/searchExt?bdrDistributorId=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_shop` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_shop` WHERE ( bdrDistributorId=13 )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_shop` WHERE ( bdrDistributorId=13 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-01T14:34:37+08:00 ] 192.168.30.249 /eihView/resources/eih/eihBaseChannel/searchExt?bdrDistributorId=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `think_shop` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_shop` WHERE ( bdrDistributorId=13 )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_shop` WHERE ( bdrDistributorId=13 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-01T14:34:37+08:00 ] 192.168.30.249 /eihView/resources/eih/eihBaseChannel/searchExt?bdrDistributorId=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_shop` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_shop` WHERE ( bdrDistributorId=13 )  [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_shop` WHERE ( bdrDistributorId=13 ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-01T14:34:37+08:00 ] 192.168.30.249 /eihView/resources/eih/eihBaseChannel/searchExt?bdrDistributorId=13
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_shop` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_shop` WHERE ( bdrDistributorId=13 )  [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_shop` WHERE ( bdrDistributorId=13 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-01T16:02:45+08:00 ] 192.168.30.76 /eihView/resources/eih/product/search?pageNum=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.011501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011501s ]
+SQL: SHOW COLUMNS FROM `think_products` [ RunTime:0.0705s ]
+SQL: SHOW COLUMNS FROM `think_files` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_products` WHERE (  1 ) AND (  1 ) LIMIT 0,10   [ RunTime:0.0900s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=413 ) LIMIT 1   [ RunTime:0.1315s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=414 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=415 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=416 ) LIMIT 1   [ RunTime:0.0025s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=417 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=418 ) LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=419 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=420 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=421 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=422 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_products` WHERE (  1 ) AND (  1 ) LIMIT 1   [ RunTime:0.0225s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.055507s ]
+INFO: [ app_end ] --END-- [ RunTime:0.055507s ]
+
+[ 2017-04-01T16:04:01+08:00 ] 192.168.30.76 /eihView/resources/eih/product?productHeaderId=413
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_products` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `think_files` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `think_products` WHERE ( `productHeaderId`=413 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=413 )  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-01T16:04:06+08:00 ] 192.168.30.76 /eihView/resources/eih/product?productHeaderId=416
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_products` [ RunTime:0.0025s ]
+SQL: SHOW COLUMNS FROM `think_files` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `think_products` WHERE ( `productHeaderId`=416 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=416 )  [ RunTime:0.0045s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-01T16:04:18+08:00 ] 192.168.30.76 /eihView/resources/eih/product/search?pageNum=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_products` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `think_files` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `think_products` WHERE (  1 ) AND (  1 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=413 ) LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=414 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=415 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=416 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=417 ) LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=418 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=419 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=420 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=421 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=422 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_products` WHERE (  1 ) AND (  1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-01T16:04:19+08:00 ] 192.168.30.76 /eihView/resources/eih/baseClassify/search?classifyLevel=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_classify` [ RunTime:0.2565s ]
+SQL: SELECT * FROM `think_classify` WHERE (  classifyLevel=1 )  [ RunTime:0.0185s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_classify` WHERE (  classifyLevel=1 ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002500s ]
+
+[ 2017-04-01T16:04:21+08:00 ] 192.168.30.76 /eihView/resources/eih/product?productHeaderId=414
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_products` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `think_files` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `think_products` WHERE ( `productHeaderId`=414 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=414 )  [ RunTime:0.0030s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-01T16:04:23+08:00 ] 192.168.30.76 /eihView/resources/eih/product?productHeaderId=413
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_products` [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `think_files` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `think_products` WHERE ( `productHeaderId`=413 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=413 )  [ RunTime:0.0040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2017-04-01T16:05:30+08:00 ] 192.168.30.76 /eihView/resources/eih/product/search?pageNum=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `think_products` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `think_files` [ RunTime:0.0025s ]
+SQL: SELECT * FROM `think_products` WHERE (  1 ) AND (  1 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=413 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=414 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=415 ) LIMIT 1   [ RunTime:0.0055s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=416 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=417 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=418 ) LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=419 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=420 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=421 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=422 ) LIMIT 1   [ RunTime:0.0045s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_products` WHERE (  1 ) AND (  1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-01T16:05:37+08:00 ] 192.168.30.76 /eihView/resources/eih/product/search?pageNum=1&pageSize=10
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `think_products` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `think_files` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `think_products` WHERE (  1 ) AND (  1 ) LIMIT 0,10   [ RunTime:0.0005s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=413 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=414 ) LIMIT 1   [ RunTime:0.0050s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=415 ) LIMIT 1   [ RunTime:0.0035s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=416 ) LIMIT 1   [ RunTime:0.0045s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=417 ) LIMIT 1   [ RunTime:0.0030s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=418 ) LIMIT 1   [ RunTime:0.0045s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=419 ) LIMIT 1   [ RunTime:0.0155s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=420 ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=421 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT `aliasFileName`,`attachedDocumentId`,`documentId`,`entityName`,`existFlag`,`fileName`,`folderPath`,`lookupCode`,`lookupType`,`pageNum`,`pageSize`,`publishFlag`,`scaleExistFlag`,`scaleFileName`,`seqNum`,`url` FROM `think_files` WHERE ( attachId=422 ) LIMIT 1   [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `think_products` WHERE (  1 ) AND (  1 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
